@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  api:
+    build:
+      context: .
+      dockerfile: deploy/Dockerfile.backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+    environment:
+      - ENV=dev
+  # add db service if needed (postgres)
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: scoutia
+      POSTGRES_USER: scoutia
+      POSTGRES_PASSWORD: scoutia_pass
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:

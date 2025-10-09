@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+sqlalchemy
+psycopg2-binary
+pandas
+numpy
+opencv-python
+ultralytics
+torch  # if torch is available for your GPU/CPU (adjust version)
+mediapipe
+scikit-learn
+joblib
+matplotlib
+pytest
+python-dotenv

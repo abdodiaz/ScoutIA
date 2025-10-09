@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+venv/
+.env.*
+data/raw/
+data/processed/
+models/*.pt
+models/*.pth
+logs/
+.DS_Store
+node_modules/
+dist/
