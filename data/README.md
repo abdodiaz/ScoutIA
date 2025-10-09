@@ -1,6 +1,8 @@
-# Données
+# Donnï¿½es
 Structure:
-- data/raw/ : vidéos brutes
+- data/raw/ : vidï¿½os brutes
 - data/frames/ : frames extraites
 - data/annotations/ : annotations COCO/Yolo
-- data/processed/ : données traitées pour entraînement
+- data/processed/ : donnï¿½es traitï¿½es pour entraï¿½nement
+
+
