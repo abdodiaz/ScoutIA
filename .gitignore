@@ -11,3 +11,6 @@ logs/
 .DS_Store
 node_modules/
 dist/
+data/videos/raw/08fd33_4.mp4
+YOLO/player_tracking_data.csv
+YOLO/tracking_data.csv
