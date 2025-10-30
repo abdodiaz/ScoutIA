@@ -15,3 +15,5 @@ joblib
 matplotlib
 pytest
 python-dotenv
+streamlit
+plotly

@@ -1,0 +1,14 @@
+============================================================
+SCOUTIA PRO PIPELINE REPORT
+============================================================
+
+Generated: 2025-10-30 15:44:30
+
+[OK] Model: Found at models\injury_risk_model.pkl
+[OK] Processed Data: 100 rows
+
+============================================================
+PIPELINE STATUS
+============================================================
+
+All pipeline steps completed successfully.
